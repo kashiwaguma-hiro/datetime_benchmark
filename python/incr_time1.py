@@ -7,7 +7,7 @@ def calculate_diff_seconds(date_from, date_to):
   delta = date_to - date_from
   return (delta.days * 24 * 60 * 60) + delta.seconds
 
-size = 100000
+size = 100000000
 date_from = datetime.datetime.strptime("20170101", '%Y%m%d')
 date_to = datetime.datetime.strptime("20171231", '%Y%m%d')
 
