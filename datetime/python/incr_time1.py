@@ -18,9 +18,7 @@ incr_time = date_from
 start = time.time()
 for i in range(0, size):
      incr_time = incr_time + datetime.timedelta(seconds= +incr_sec)
-     time_str =  str('%Y-%m-%d %H:%M:%S')
-#     time_str =  incr_time.strftime('%Y-%m-%d %H:%M:%S')
-#     print(time_str)
+     time_str =  incr_time.strftime('%Y-%m-%d %H:%M:%S')
 
 print("time={0}[s]".format(time.time() - start))
 
